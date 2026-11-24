@@ -1,4 +1,4 @@
-package br.com.estanteweb;
+package br.com.estanteweb.Models;
 
 import java.util.Map;
 

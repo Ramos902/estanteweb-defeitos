@@ -1,4 +1,4 @@
-package br.com.estanteweb;
+package br.com.estanteweb.Controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import br.com.estanteweb.Models.Usuario;
+import br.com.estanteweb.Repositoryes.UsuarioRepository;
 import jakarta.servlet.http.HttpSession;
 
 @Controller
