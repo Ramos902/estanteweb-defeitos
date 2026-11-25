@@ -19,6 +19,7 @@
     <tr><th>Título</th><th>Autor</th><th>Ano</th><th>Preço</th></tr>
     <#list livros as livro>
         <tr>
+            <!-- Corrected the link to point to the book details page using the book's ID -->
             <td><a href="/livros/${livro.id?c}">${livro.titulo}</a></td>
             <td>${livro.autor}</td>
             <td>${livro.ano?c}</td>
